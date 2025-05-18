@@ -20,19 +20,25 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Starter Kit
+title:                 RounWorld
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Study without fanfare, act with conviction, and make them believe in your journey.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Voyage to Robotics Research
 
 # A list of keywords for your blog
-keywords:              []
+keywords:
+  - robotics
+  - SLAM
+  - navigation
+  - AI
+  - multimodal
+  - perception
+  - computer vision
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,19 +48,27 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Roun Lee
+  email:               rounlee.kor@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
-  - title:             About
-    url:               /about/
+  - title: "About Me"
+    url: /about/
+  - title: "Paper Review"
+    url: /paper-review/
+    # 하위 메뉴(필드별로 분류)도 넣고 싶다면 children 으로…
+    children:
+      - title: "SLAM"
+        url: /paper-review/slam/
+      - title: "Foundation Model"
+        url: /paper-review/foundation_model/
+      - title: "Perception"
+        url: /paper-review/perception/
+  - title: "Projects"
+    url: /projects/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -349,22 +363,11 @@ plugins:
 #   alexa:               <verification-id>
 #   yandex:              <verification-id>
 
-# Used for twitter cards
-# twitter:
-#   username:            <username>
-
-# Used for facebook open graph
-# facebook:
-#   app_id:              <id>
-#   publisher:           <id>
-#   admins:              <id>
-
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name: "Roun Lee"
+  links:
+    - https://www.linkedin.com/in/roun-lee-5503382b6/
 
 
 # Plugin Configs

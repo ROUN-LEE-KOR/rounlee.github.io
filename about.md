@@ -17,7 +17,7 @@ I’m **Roun Lee**, a robotics researcher who are especially aim to "human-like"
 
 ---
 
-## 🎓 Work Expereinces
+## Work Expereinces
 
 - **Riibotics Inc.**, SLAM & Perception Engineer, 2025.02~
 - **Korea Research Institute of Ships & Ocean Engineering**, Intern Researcher, 2022.01~2022.02  
@@ -31,7 +31,7 @@ I’m **Roun Lee**, a robotics researcher who are especially aim to "human-like"
 - **3D Semantic Mapping**  
   - Applying high-quality rendering skills such as Gaussian Splatting for real-like environment reconstruction  
 - **SLAM**  
-  - Simultaneous localization and mapping is always the "FUNDAMENTAL" for all autonomous robots !
+  - Simultaneous localization and mapping is always the "FUNDAMENTAL" for all autonomous robots
 ---
 
 ## 📫 Contact

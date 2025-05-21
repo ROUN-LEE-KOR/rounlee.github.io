@@ -32,6 +32,7 @@ I’m **Roun Lee**, a robotics researcher who are especially aim to "human-like"
   - Applying high-quality rendering skills such as Gaussian Splatting for real-like environment reconstruction  
 - **SLAM**  
   - Simultaneous localization and mapping is always the "FUNDAMENTAL" for all autonomous robots
+  
 ---
 
 ## 📫 Contact

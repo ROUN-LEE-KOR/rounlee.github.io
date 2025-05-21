@@ -4,7 +4,7 @@ title: "About Me"
 permalink: /about/
 ---
 
-# About Me
+# I am ..
 
 I’m **Roun Lee**, a robotics researcher who are especially aim to "human-like".  Now, I’m expanding into integrating foundation AI models (VLM, LMM) with mobile robotics.
 
@@ -31,7 +31,7 @@ I’m **Roun Lee**, a robotics researcher who are especially aim to "human-like"
 - **3D Semantic Mapping**  
   - Applying high-quality rendering skills such as Gaussian Splatting for real-like environment reconstruction  
 - **SLAM**  
-  - Simultaneous localization and mapping is always the "FUNDAMENTAL" for all autonomous robots!
+  - Simultaneous localization and mapping is always the "FUNDAMENTAL" for all autonomous robots !
 ---
 
 ## 📫 Contact

@@ -57,14 +57,17 @@ author:
 menu:
   - title: "About Me"
     url: /about/
+    
   - title: "Paper Review"
     url: /paper-review/
     # 하위 메뉴(필드별로 분류)도 넣고 싶다면 children 으로…
     children:
       - title: "Attention Is All You Need"
         url: /paper-review/attention-is-all-you-need/
+
   - title: "Projects"
     url: /projects/
+
   - title: "Study"
     url: /study/
 

@@ -384,6 +384,7 @@ optional_front_matter:
   remove_originals:    true
 
 readme_index:
+  enable: false
   remove_originals:    false
   with_frontmatter:    false
 

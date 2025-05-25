@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  {% include my-head.html %}
+</head>
+<body>
+  {% include my-body.html %}
+  <main id="main" class="container">
+    <header class="page-header">
+      <h1>{{ page.title }}</h1>
+    </header>
+    <section class="homepage-nav">
+      {% for item in site.menu %}
+      <div class="nav-card">
+        <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+        {% if item.children %}
+        <ul class="submenu">
+          {% for child in item.children %}
+          <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </section>
+  </main>
+  {% include my-footer.html %}
+</body>
+</html>

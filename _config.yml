@@ -61,14 +61,12 @@ menu:
     url: /paper-review/
     # 하위 메뉴(필드별로 분류)도 넣고 싶다면 children 으로…
     children:
-      - title: "SLAM"
-        url: /paper-review/slam/
-      - title: "Foundation Model"
-        url: /paper-review/foundation_model/
-      - title: "Perception"
-        url: /paper-review/perception/
+      - title: "Attention Is All You Need"
+        url: /paper-review/attention-is-all-you-need/
   - title: "Projects"
     url: /projects/
+  - title: "Study"
+    url: /study/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

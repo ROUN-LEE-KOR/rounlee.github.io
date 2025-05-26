@@ -1,7 +1,7 @@
 ---
 layout: page           # 또는 post 레이아웃을 쓰고 싶으면 `post`
 title: "Attention is All You Need"
-permalink: /paper-review/attention-is-all-you-need/
+permalink: /paper-review/
 ---
 
 # Attention is All You Need

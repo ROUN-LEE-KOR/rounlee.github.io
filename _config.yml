@@ -60,9 +60,6 @@ menu:
 
   - title: "Paper Review"
     url: /paper-review/
-    children:
-      - title: "Attention Is All You Need"
-        url: /paper-review/attention-is-all-you-need/
 
   - title: "Projects"
     url: /projects/
